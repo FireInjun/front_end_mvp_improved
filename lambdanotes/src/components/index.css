@@ -36,11 +36,8 @@
 .delete_wrapper {
     z-index: 1000;
     position: fixed;
-    /* Remove Hackyness */
-    align-self: center;
     margin-top: 80px;
     margin-left: 0;
-    /* Standard Styles */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,9 +51,37 @@
 }
 
 .delete_buttons_wrapper {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: row
+}
+
+.deletebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(235, 10, 10);
+    border: 1px solid #86AEB1;
+    /*      TB   LR */
+    margin: 0.5rem 0;
+    height: 40px;
+    border-radius: 0.1rem;
+}
+
+.nobutton {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    background-color: #23B8BE;
+    border: 1px solid #86AEB1;
+    /*      TB   LR */
+    margin: 0.5rem 0;
+    height: 40px;
+    border-radius: 0.1rem;
 }
 
 .hidden {

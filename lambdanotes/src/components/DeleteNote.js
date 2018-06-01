@@ -19,14 +19,12 @@ class DeleteNote extends Component {
                     <h4>Are you sure you want to delete this?</h4>
                 </div>
                 <div className='delete_buttons_wrapper'>
-                    <div
-                        className='button button--danger'
+                    <div className='deletebutton'
                         onClick={this.handleDelete}
                     >
                         DELETE
                     </div>
-                    <div
-                        className='button'
+                    <div className='nobutton'
                         onClick={this.props.showModal}
                     >
                         NO
