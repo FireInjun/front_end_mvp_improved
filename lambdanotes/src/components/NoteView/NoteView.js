@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index.css';
+import './style/NoteView.css';
 
 class NoteView extends Component {
     constructor() {
