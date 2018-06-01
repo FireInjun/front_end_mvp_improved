@@ -1,18 +1,13 @@
-// React imports
 import React from 'react';
 import ReactDOM from 'react-dom';
-// Components Imports
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-// Router Imports
 import { BrowserRouter as Router } from 'react-router-dom';
-// Redux Imports
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-const dummyReducer = (state = [], action) => state;
+import notesReducer from './reducers';
+import App from './App';
 
-const store = createStore(dummyReducer);
+const store = createStore(notesReducer);
 
 ReactDOM.render(
     (
@@ -24,4 +19,3 @@ ReactDOM.render(
         </Provider>
     )
     , document.getElementById('root'));
-registerServiceWorker();

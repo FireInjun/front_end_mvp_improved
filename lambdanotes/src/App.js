@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import LeftNav from './components/LeftNav/LeftNav';
-import MainContent from './components/MainContent/MainContent';
+import { MainContent, LeftNav } from './containers';
 
 class App extends Component {
   render() {
