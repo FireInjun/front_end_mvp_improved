@@ -22,19 +22,22 @@ class NotesList extends Component {
         this.setState( { notesArray: reversed } );
     }
 
-    generateNotes = ( what, where ) => {
+    generateNotes = ( what, where ) =>
+    {
         return (
-            <Link to={`/note/${ what._id }`} className='unstiledLink' key={what._id}>
-                <div className='note'>
-                    <div>
-                        <h4>{what.title}</h4>
-                        <hr></hr>
-                        <p>{what.body}</p>
-                    </div>
+            <div className='note'>
+                <div>
+                    <h4>{what.title}</h4>
+                    <hr></hr>
+                    <p>{what.body}</p>
                 </div>
-            </Link>
+                <Link to={`/note/${ what._id }`} className='button_link' key={what._id} >
+                    <div className='view_button'>View</div>
+                </Link>
+            </div>    
         )
-    }
+    };
+
 
     render() {
         return (

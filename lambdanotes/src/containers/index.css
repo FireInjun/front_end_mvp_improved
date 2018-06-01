@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    max-width: 681px;
-    min-width: 260px;
     width: 100%;
     height: 90vh;
     overflow: auto;
@@ -32,7 +30,6 @@
 }
 
 .nav_buttons_container {
-    /*        T  R B L*/
     margin: 0.5rem 0 0 0;
     display: flex;
     flex-direction: column;
@@ -46,7 +43,6 @@
     font-weight: 600;
     background-color: #23B8BE;
     border: 1px solid #86AEB1;
-    /*      TB   LR */
     margin: 0.5rem 0;
     height: 40px;
     border-radius: 0.1rem;

@@ -65,9 +65,8 @@
     font-weight: 600;
     background-color: rgb(235, 10, 10);
     border: 1px solid #86AEB1;
-    /*      TB   LR */
     margin: 0.5rem 0;
-    height: 40px;
+    height: 3rem;
     border-radius: 0.1rem;
 }
 
@@ -80,7 +79,7 @@
     border: 1px solid #86AEB1;
     /*      TB   LR */
     margin: 0.5rem 0;
-    height: 40px;
+    height: 3rem;
     border-radius: 0.1rem;
 }
 
@@ -116,6 +115,19 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.view_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    background-color: #23B8BE;
+    border: 1px solid #86AEB1;
+    margin: 0.5rem 0;
+    height: 3rem;
+    border-radius: 0.1rem;
 }
 
 .note {

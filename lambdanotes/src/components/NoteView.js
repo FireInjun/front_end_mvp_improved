@@ -38,8 +38,7 @@ class NoteView extends Component {
                     </h3>
                     <div>
                         <Link to={`/edit/${ this.props.match.params.id }`} className='edit_delete'>edit</Link>
-                        <a
-                            className='edit_delete'
+                        <a className='edit_delete'
                             onClick={this.showModal}
                         >
                             delete
