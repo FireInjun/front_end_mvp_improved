@@ -17,7 +17,7 @@
     padding: 0.25rem 0.75rem;
     margin-bottom: 1rem;
     border-radius: 0.2rem;
-    border: 1px solid #B2B2B2;
+    border: 1px solid #b2b2b2;
 }
 
 .createNote_body {
@@ -26,7 +26,7 @@
     padding: 0.75rem;
     margin-bottom: 1rem;
     border-radius: 0.2rem;
-    border: 1px solid #B2B2B2;
+    border: 1px solid #b2b2b2;
 }
 
 .createNote_button {
@@ -54,7 +54,7 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: row
+    flex-direction: row;
 }
 
 .deletebutton {
@@ -64,7 +64,7 @@
     color: white;
     font-weight: 600;
     background-color: rgb(235, 10, 10);
-    border: 1px solid #86AEB1;
+    border: 1px solid #86aeb1;
     margin: 0.5rem 0;
     height: 3rem;
     border-radius: 0.1rem;
@@ -75,8 +75,8 @@
     align-items: center;
     color: white;
     font-weight: 600;
-    background-color: #23B8BE;
-    border: 1px solid #86AEB1;
+    background-color: #23b8be;
+    border: 1px solid #86aeb1;
     /*      TB   LR */
     margin: 0.5rem 0;
     height: 3rem;
@@ -87,19 +87,19 @@
     display: none;
 }
 
-@media(max-width: 940px) {
+@media (max-width: 940px) {
     .delete_wrapper {
         margin-left: -20vw;
     }
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     .delete_wrapper {
         margin-left: -25vw;
     }
 }
 
-@media(max-width: 400px) {
+@media (max-width: 400px) {
     .delete_wrapper {
         margin-left: -35vw;
     }
@@ -123,15 +123,15 @@
     align-items: center;
     color: white;
     font-weight: 600;
-    background-color: #23B8BE;
-    border: 1px solid #86AEB1;
+    background-color: #23b8be;
+    border: 1px solid #86aeb1;
     margin: 0.5rem 0;
     height: 3rem;
     border-radius: 0.1rem;
 }
 
 .note {
-    margin: 0.5rem 0.5rem;
+    margin: 0.5rem;
     width: 200px;
     min-height: 170px;
     overflow: hidden;
@@ -145,7 +145,7 @@
 }
 
 .note hr {
-    margin: 0.25rem 0 0.5rem 0;
+    margin: 0.25rem 0 0.5rem;
 }
 
 .note p {
