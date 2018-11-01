@@ -1,4 +1,4 @@
-import LeftNav from './LeftNav';
-import MainContent from './MainContent';
+import LeftNav from "./LeftNav";
+import MainContent from "./MainContent";
 
-export { LeftNav, MainContent }
+export { LeftNav, MainContent };
